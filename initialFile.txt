@@ -1,1 +1,2 @@
+echo "new line of 1 file"
 echo "first line of 1 file"
