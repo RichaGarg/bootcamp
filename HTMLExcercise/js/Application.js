@@ -1,3 +1,7 @@
+$(function () {
+    replaceContentOfId("photoId", "Richa");
+});
+
 function getFormattedDateTime() {
     var months = ["January",
         "Feburary",
@@ -47,20 +51,20 @@ function writeAllValues() {
     replaceContentOfId("photoId", "new content");
 }
 
-function getSimpleIntrest(){
+function getSimpleIntrest() {
     var amt = prompt("enter amount");
     var yr = prompt("enter n of years");
     var rate = prompt("enter rate");
-    var si = (amt * rate * yr) / 100 ;
+    var si = (amt * rate * yr) / 100;
     document.getElementById("id1").innerHTML = si;
 }
 
 
-function setColor(){
-    document.getElementById("divid").style.backgroundColor="red";
+function setColor() {
+    document.getElementById("divid").style.backgroundColor = "red";
 
 }
 
-function resetDefault(){
-    document.getElementById("divid").style.backgroundColor="white";
+function resetDefault() {
+    document.getElementById("divid").style.backgroundColor = "white";
 }
